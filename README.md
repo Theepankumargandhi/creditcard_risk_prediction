@@ -43,7 +43,18 @@ This highlights the value of model diversity and complementary learning.
 
 ## Folder Structure
 
-creditcard_risk_prediction/ │ ├── README.md # Project overview and SHAP results ├── requirements.txt # Dependency list ├── notebooks/ │ └── credit_risk_prediction_with_shap.ipynb # Model training and SHAP ├── shap_outputs/ │ ├── shap_lgb_summary.png # LightGBM SHAP summary plot │ ├── shap_catboost_summary.png # CatBoost SHAP summary plot │ └── shap_feature_overlap_venn.png # Venn diagram of top features
+```
+creditcard_risk_prediction/
+│
+├── README.md                           # Project overview and SHAP results
+├── requirements.txt                    # Dependency list
+├── notebooks/
+│   └── credit_risk_prediction_with_shap.ipynb   # Model training and SHAP
+├── shap_outputs/
+│   ├── shap_lgb_summary.png           # LightGBM SHAP summary plot
+│   ├── shap_catboost_summary.png      # CatBoost SHAP summary plot
+│   └── shap_feature_overlap_venn.png  # Venn diagram of top features
+```
 
 
 ---
