@@ -16,14 +16,17 @@ This project predicts loan default risk using optimized feature engineering and 
 
 ## SHAP Explainability
 
-### LightGBM vs CatBoost SHAP Summary
+## SHAP Explainability
 
-<p align="center">
-  <img src="shap_outputs/shap_lgb_catboost_comparison.png" width="100%">
-</p>
+---
 
-LightGBM emphasizes income type, gender, and response dates.  
-CatBoost uncovers insights from birth dates, request types, and contract values.
+SHAP (SHapley Additive exPlanations) is a model-agnostic explainability technique that helps interpret how each feature contributes to a model’s prediction.
+
+In this project:
+- SHAP is used to analyze feature importance in both LightGBM and CatBoost models
+- It provides consistent global and local interpretability
+- Helps uncover which features push the prediction toward default or non-default
+- Enhances transparency in credit risk modeling
 
 ---
 
